@@ -1,5 +1,5 @@
 body {
-  width: 100%;
+  width: 1440px;
   background-color: #ffffff;
 }
 
@@ -7,7 +7,7 @@ body {
 
 .box1 {
   background-color: #4f46e5;
-  width: 100%;
+  width: 1440px;
   height: 982px;
   position: relative;
 }
@@ -150,6 +150,7 @@ nav a:hover {
 
 .second {
   margin-top: 100px;
+  width:1440px
 }
 .contain {
   width: 1282px;
@@ -446,7 +447,7 @@ nav a:hover {
 /*Third Section---------------------------------------------------------------------------------------------*/
 
 .third {
-  width: 90%;
+  width: 100%;
   margin-left: 100px;
 }
 .program-section {
@@ -617,7 +618,7 @@ nav a:hover {
 }
 
 .column-two {
-  right: 110px;
+  right: 90px;
   top: -400px;
 }
 
