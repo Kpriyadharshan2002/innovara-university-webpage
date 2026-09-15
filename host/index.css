@@ -450,33 +450,37 @@ nav a:hover {
 /*Third Section---------------------------------------------------------------------------------------------*/
 
 .third {
-  margin-left: 100px;
+  width:100%;
+  margin-left: 0;
 }
 .program-section {
   width: 100%;
+  max-width:1200px;
+  margin:0 auto;
   min-height: 654px;
-  padding: 70px 0;
+  padding: 70px 20px;
   text-align: center;
 }
 
 .program-title {
   font-size: 60px;
-  width: 559px;
-  height: 73px;
+  width: 100%;
+  max-width:600px;
+  height: auto;
   font-weight: 700;
   font-family: inter;
-  margin-bottom: 5px;
-  margin-left: 30%;
+  margin:0 auto 10px;
 }
 
 .program-subtitle {
   margin-bottom: 55px;
   font-family: inter;
-  font-size: 32px;
-  width: 817px;
-  height: 39px;
+  font-size: 24px;
+  width: 100%;
+  max-width:800px;
+  height: auto;
   font-weight: 400;
-  margin-left: 20%;
+  margin:0 auto 50px;
   color: #000000;
 }
 
@@ -486,13 +490,12 @@ nav a:hover {
   display: flex;
   gap: 25px;
   overflow-x: auto;
-  padding: 0 8% 20px;
+  padding: 10px 10px 25px;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
   cursor: grab;
-  width: 1271px;
-  height: 318px;
-  margin-left: 50px;
+  width: 100%;
+  margin-left: 0;
 }
 
 .program-row::-webkit-scrollbar {
