@@ -478,5 +478,24 @@
     </footer>
 
 </div>
+
+<script>
+    // Scale the fixed 1440px design to fit whatever screen/browser width it's viewed on,
+    // so it looks the same proportionally everywhere instead of overflowing/cropping.
+    (function () {
+        var DESIGN_WIDTH = 1440;
+        var container = document.querySelector('.container1');
+
+        function scalePage() {
+            var scale = window.innerWidth / DESIGN_WIDTH;
+            container.style.transform = 'scale(' + scale + ')';
+            document.body.style.height = (container.offsetHeight * scale) + 'px';
+        }
+
+        window.addEventListener('load', scalePage);
+        window.addEventListener('resize', scalePage);
+    })();
+</script>
+
 </body>
 </html>
